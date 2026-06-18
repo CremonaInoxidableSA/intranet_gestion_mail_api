@@ -80,7 +80,7 @@ def generar_contenido_email_recuperacion(nombre: str, apellido: str, link: str) 
             <p>El enlace expira en {RESET_TOKEN_EXP_MINUTES} minutos.</p>
             <br>
             <p>Saludos,</p>
-            <p>El equipo de Mortadela</p>
+            <h2>Departamento de Sistemas - Cremona Inoxidable SA</h2>
         </body>
     </html>
     """

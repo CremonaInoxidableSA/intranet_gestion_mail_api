@@ -6,3 +6,5 @@ python-multipart
 email-validator
 aiosmtplib
 itsdangerous
+sqlalchemy
+pymysql
