@@ -7,6 +7,7 @@ from config import db
 
 from routes.reclamos.reclamos import router as reclamos_router
 from routes.recuperacion.recuperacion import router as recuperacion_router
+from routes.notificar.nuevoencargado import router as notificar_router
 
 load_dotenv()
 
@@ -22,3 +23,4 @@ app.add_middleware(
 
 app.include_router(reclamos_router)
 app.include_router(recuperacion_router)
+app.include_router(notificar_router)

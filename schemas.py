@@ -11,3 +11,8 @@ class RecuperacionForm(BaseModel):
     nombre: str
     apellido: str
     email: EmailStr
+
+class NuevoEncargadoForm(BaseModel):
+    nombre: str
+    apellido: str
+    legajo: int
